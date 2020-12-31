@@ -64,8 +64,8 @@ def add_characters
   epic_tragedy[capulet][heroine][status] = 'dead'
   epic_tragedy[additional_characters] = Array.new
   epic_tragedy[additional_characters][0] = {
-    {name: 'Prince Escalus'},
-    {name: 'Apothecary'}
+    name: 'Prince Escalus',
+    name: 'Apothecary'
   }
 
    # After your code, the following line will return the altered hash
